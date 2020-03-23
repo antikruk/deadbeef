@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: 3ef31033c9537dd7bb627c0f6722cc49\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-03 19:35+0100\n"
-"PO-Revision-Date: 2020-03-22 14:01\n"
+"PO-Revision-Date: 2020-03-23 14:00\n"
 "Last-Translator: DeadMetaler <dead.666@bk.ru>\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
@@ -1593,12 +1593,12 @@ msgstr "                      Параметр ЛІК можа быць вызн
 #: ../main.c:149
 #, c-format
 msgid "                      or in dB [-50, 0] (if with suffix).\n"
-msgstr ""
+msgstr "                      альбо ў Дб [-50, 0] (калі з суфіксам).\n"
 
 #: ../main.c:150
 #, c-format
 msgid "                      Examples: --volume 80, --volume +10, --volume -5 or --volume -20dB\n"
-msgstr ""
+msgstr "                      Прыклады: --volume 80, --volume +10, --volume -5 альбо --volume -20Дб\n"
 
 #: ../playlist.c:479 ../playlist.c:2316
 msgid "Default"
@@ -1951,7 +1951,7 @@ msgstr "Якасць/Алгарытм"
 #: ../translation/plugins.c:100
 #, no-c-format
 msgid "Resampling quality"
-msgstr ""
+msgstr "Якасць перадыскрэтызацыі"
 
 #: ../translation/plugins.c:102
 #, no-c-format
@@ -1976,7 +1976,7 @@ msgstr "Цалкам"
 #: ../translation/plugins.c:112
 #, no-c-format
 msgid "8-bit output"
-msgstr ""
+msgstr "8-бітны вывад"
 
 #. plugins/ffmpeg/ffmpeg.c
 #: ../translation/plugins.c:115
@@ -1993,12 +1993,12 @@ msgstr "Канчаткі файлаў (праз ';')"
 #: ../translation/plugins.c:120
 #, no-c-format
 msgid "Ignore bad header errors"
-msgstr ""
+msgstr "Не зважаць на памылкі загалоўкаў"
 
 #: ../translation/plugins.c:122
 #, no-c-format
 msgid "Ignore unparsable stream errors"
-msgstr ""
+msgstr "Не зважаць на памылкі струменяў, якія немагчыма разабраць"
 
 #. plugins/gme/cgme.c
 #: ../translation/plugins.c:125
@@ -2615,7 +2615,7 @@ msgstr "Прайграваць падвойнай пстрычкай"
 #: ../translation/plugins.c:412
 #, no-c-format
 msgid "Buffer size (-1 to use optimal value chosen by portaudio)"
-msgstr ""
+msgstr "Памер буфера (-1 - аптымальнае значэнне, абранае portaudio)"
 
 #: ../translation/plugins.c:414
 #, no-c-format
@@ -2721,47 +2721,47 @@ msgstr "Перадузмацненне"
 #: ../translation/plugins.c:458
 #, no-c-format
 msgid "1.2K"
-msgstr ""
+msgstr "1.2K"
 
 #: ../translation/plugins.c:460
 #, no-c-format
 msgid "1.8K"
-msgstr ""
+msgstr "1.8K"
 
 #: ../translation/plugins.c:462
 #, no-c-format
 msgid "2.5K"
-msgstr ""
+msgstr "2.5K"
 
 #: ../translation/plugins.c:464
 #, no-c-format
 msgid "3.5K"
-msgstr ""
+msgstr "3.5K"
 
 #: ../translation/plugins.c:466
 #, no-c-format
 msgid "5K"
-msgstr ""
+msgstr "5K"
 
 #: ../translation/plugins.c:468
 #, no-c-format
 msgid "7K"
-msgstr ""
+msgstr "7K"
 
 #: ../translation/plugins.c:470
 #, no-c-format
 msgid "10K"
-msgstr ""
+msgstr "10K"
 
 #: ../translation/plugins.c:472
 #, no-c-format
 msgid "14K"
-msgstr ""
+msgstr "14K"
 
 #: ../translation/plugins.c:474
 #, no-c-format
 msgid "20K"
-msgstr ""
+msgstr "20K"
 
 #. plugins/vfs_curl/vfs_curl.c
 #: ../translation/plugins.c:477
@@ -3283,27 +3283,28 @@ msgstr "help.txt"
 #: ../plugins/gtkui/actionhandlers.c:412
 msgid " The files will be lost.\n\n"
 "(This dialog can be turned off in GTKUI plugin settings)"
-msgstr ""
+msgstr " Файлы будуць страчаныя. Працягнуць?\n\n"
+"(Гэты дыялог можна адключыць у наладах убудовы GTKUI)"
 
 #: ../plugins/gtkui/actionhandlers.c:417
 #, c-format
 msgid "Do you really want to delete the selected file?%s"
-msgstr ""
+msgstr "Сапраўды хочаце выдаліць абраны файл?%s"
 
 #: ../plugins/gtkui/actionhandlers.c:419
 #, c-format
 msgid "Do you really want to delete all %d selected files?%s"
-msgstr ""
+msgstr "Сапраўды хочаце выдаліць %d абраныя файлы?%s"
 
 #: ../plugins/gtkui/actionhandlers.c:424
 #, c-format
 msgid "Do you really want to delete all %d files from the current playlist?%s"
-msgstr ""
+msgstr "Сапраўды хочаце выдаліць усе %d файлаў з бягучага плэйліста?%s"
 
 #: ../plugins/gtkui/actionhandlers.c:427
 #, c-format
 msgid "Do you really want to delete the currently playing file?%s"
-msgstr ""
+msgstr "Сапраўды хочаце выдаліць файл, які зараз прайграецца?%s"
 
 #: ../plugins/gtkui/actionhandlers.c:430
 msgid "Delete files from disk"
@@ -3447,12 +3448,12 @@ msgstr "Змяніць назву плэйліста"
 
 #: ../plugins/gtkui/pltmenu.c:90
 msgid "Removing playlist"
-msgstr ""
+msgstr "Выдаленне плэйліста"
 
 #: ../plugins/gtkui/pltmenu.c:91
 #, c-format
 msgid "Do you really want to remove the playlist '%s'?"
-msgstr ""
+msgstr "Сапраўды хочаце выдаліць плэйліст \"%s\"?"
 
 #: ../plugins/gtkui/pltmenu.c:410
 msgid "Remove Playlist"
@@ -3468,7 +3469,7 @@ msgstr "Дубляваць плэйліст"
 
 #: ../plugins/gtkui/pltmenu.c:433
 msgid "Enable Autosort"
-msgstr ""
+msgstr "Уключыць аўтасартаванне"
 
 #: ../plugins/pltbrowser/pltbrowser.c:177
 msgid " (paused)"
